@@ -1,0 +1,178 @@
+
+/************
+* FORM ELEMENTS
+*************/
+input[type=text],.fsForm textarea,input[type=password]
+{
+    border:1px solid #999;
+    background-color:#fff;
+    background-image:url(images/fieldbg.png);
+    background-repeat:repeat-x;
+    background-position:top left;
+    border-top:1px solid #7c7c7c;
+    border-left:1px solid #c3c3c3;
+    border-right:1px solid #c3c3c3;
+    border-bottom:1px solid #ddd;
+    color:#333;
+    padding:4px;
+    font-size:14px;
+    line-height:18px;
+    font-weight:bold;
+}
+
+
+span.required
+{
+    padding-left:2px;
+    color:#ba0000;
+    font-size:16px;
+    font-weight:bold;
+    font-family:Verdana;
+    height:16px;
+}
+
+input[type=text]:focus,input[type=password]:focus,input[type=file]:focus,textarea:focus
+{
+    border-color:blue;
+    outline:none;
+}
+
+select
+{
+    font-size:15px;
+    line-height:18px;
+}
+
+.fsFieldFocused
+{
+    background-image:url(../../forms/images/2/fieldFocusedBG.png);
+}
+
+.validationAlert
+{
+    height:22px;
+    width:25px;
+    padding:4px;
+    background:url(../images/validationAlert.png) no-repeat center center;
+}
+
+/* DEMO */
+.demoContainer .loginContent
+{
+    padding-top:20px;
+    width:720px;
+}
+
+.demoContainer .loginContent p
+{
+    font-size:14px;
+}
+
+.demoContainer a
+{
+    color:#000;
+}
+
+.demoContainer strong
+{
+    font-style:italic;
+    font-weight:bold;
+}
+
+.demoContainer #loginButton
+{
+    padding:4px 12px;
+    margin-top:12px;
+}
+
+/* ICONS */
+
+.iconRemove {
+    background:transparent url(../images/removeDisc.gif) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconMove {
+    background:transparent url(../images/move.gif) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+    cursor:move;
+}
+
+.iconPDF {
+    background:transparent url(../images/page_white_acrobat.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconRTF {
+    background:transparent url(../images/page_white_word.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconURL {
+    background:transparent url(../images/world_link.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconWord {
+    background:transparent url(../images/page_white_acrobat.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconRSS {
+    background:transparent url(../images/feed.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconDelete {
+    background:transparent url(../images/iconDelete.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconDuplicate {
+    background:transparent url(../images/iconDuplicate.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconAdd {
+    background:transparent url(../images/addDisc.gif) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconEdit {
+    background:transparent url(../images/page_white_edit.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+.iconConfigure {
+    background:transparent url(../images/cog.png) no-repeat bottom left;
+    padding-left:20px;
+    height:18px;
+}
+
+/**********************************************************
+* PRINT
+**********************************************************/
+@media print {
+    #content
+    {
+        width:7in;
+        padding:0;
+        background:#fff;
+    }
+    
+    #FSHeader,#FSFooter,#formTabs,#sourceList,#databar,#dataNav,.paginationBar
+    {
+        display:none;
+    }
+}

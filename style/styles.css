@@ -1,0 +1,131 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{background:images/pharmacy2.jpg;}
+
+.main_wrapper{
+width:1050px;
+height:auto;
+margin:auto;
+background:#D8BFD8;
+}
+
+.header_wrapper{
+width:1050px;
+height:150px;
+margin:auto;
+background:#000000;
+}
+
+#logo {float:left;}
+#banner {float:right;}
+
+.menubar{
+width:1050px;
+height:60px;
+background:#696969;
+color:white;
+}
+
+#menu{
+padding:0;
+margin:0;
+line-height:40px;
+}
+
+#menu li{
+list-style:none;
+display:inline;
+}
+
+#menu a{
+text-decoration:none;
+color:#ffffff;
+padding:10px;
+margin:5px;
+font-size:20px;
+font-family:COMIC SANS MS;
+}
+
+#menu a:hover {color:orange; font-weight:bolder;}
+
+.content_wrapper{
+width:1050px;
+height:550px;
+margin:auto;
+}
+
+#content_area{
+width:1050px;
+height:600px;
+float:right;
+background:#D8BFD8;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 900px;
+    border-collapse: collapse;
+}
+
+#customers td, #customers th {
+    font-size: 1em;
+    border: 1px solid #8B008B;
+    padding: 3px 7px 2px 7px;
+}
+
+#customers th {
+    font-size: 1.0em;
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #800080;
+    color: #ffffff;
+}
+
+#customers tr.alt td {
+    color: #000000;
+    background-color: #EAF2D3;
+}
+
+#sidebar{
+width:200px;
+height:500px;
+float:left;
+background:#000000;
+}
+
+#footer{
+width:1050px;
+height:30px;
+background:#000000;
+clear:both;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+.menu-wrap {
+    width:1050px;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#423A44;
+}
+ 
+.menu {
+   padding:0;
+   margin:0;
+   line-height:7px;
+}
+ 
+.menu li {
+   list-style:none;
+   display:inline;
+}
+ 
+.menu a {
+    text-decoration:none;
+    color:#ffffff;
+    padding:5px;
+    margin:5px;
+    font-size:20px;
+    font-family:COMIC SANS MS;
+}
+ 
+.menu a:hover > {color:orange; font-weight:bolder;}
+ 
+.menu .arrow {
+    font-size:5px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:10px;
+}
+ 
+.menu > ul > li > a {
+    padding:5px 2px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:200px;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#423A44;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:15px;
+}
+ 
+.sub-menu li a {
+    padding:5px 7px;
+    display:block;
+	font-size: 15px;
+}
+ 

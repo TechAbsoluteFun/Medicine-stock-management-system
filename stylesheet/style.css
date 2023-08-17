@@ -1,0 +1,100 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1330px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+	.container {
+		width:1330px;
+		margin:auto;
+	}
+		.head {
+			width:1330px;
+		height:80px;
+		background:b;
+		text-decoration:none;
+					font-size:40px;
+					font-family:Algerian;
+					color:green;
+					margin:5px;
+					padding:6px;
+			
+		}
+	.navbar {
+	width:1330px;
+	height:50px;
+	background:blue;
+	}
+		#menu {
+			line-height:50px;
+			float:left;
+		}
+			#menu li {
+				list-style-type:none;
+				display:inline;
+			}
+				#menu a {
+					text-decoration:none;
+					font-size:20px;
+					font-family:"Comic Sans Ms", cursive;
+					color:#ffe4e1;
+					margin:5px;
+					padding:6px;
+				}
+					#menu a:hover {
+						color:black;
+						text-decoration:underline;
+					}
+					#form{
+						float:middle;
+						line-height:50px;
+					}
+					.main_wrapper{
+						width:1330px;
+						height:auto;
+						margin:auto;
+					}
+						#content_area {
+								width:1330px;
+						height:auto;
+						float:right;
+						background:#483d8b;
+						}
+						#sidebar{
+						width:150px;
+						height:590px;
+						float:left;
+						background:#ffdead;
+						font-size:20px;
+					font-family:"Comic Sans Ms", cursive;
+					color:#FFF;
+							
+						}
+						#sidebar a:hover {
+						color:black;
+						text-decoration:underline;
+					}
